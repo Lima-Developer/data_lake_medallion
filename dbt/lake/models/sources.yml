@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw data ingested by Spark in Parquet format on S3"
+    meta:
+      external_location: "s3://ingestion/bronze/{name}/**/*.parquet"
+    tables:
+      - name: transactions
+        description: "Raw e-commerce transactions"
+      - name: customers
+        description: "Raw customer data"

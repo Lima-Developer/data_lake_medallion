@@ -1,0 +1,15 @@
+lake:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/dbt/lake.duckdb
+      extensions:
+        - httpfs
+      settings:
+        s3_endpoint: localstack:4566
+        s3_access_key_id: test
+        s3_secret_access_key: test
+        s3_use_ssl: false
+        s3_url_style: path
+      threads: 4
