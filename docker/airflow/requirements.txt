@@ -1,0 +1,5 @@
+dbt-core==1.9.4
+dbt-duckdb==1.10.1
+boto3==1.35.0
+pyspark==3.5.8
+apache-airflow-providers-apache-spark==5.5.0
