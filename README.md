@@ -13,8 +13,13 @@ Local Data Lake demonstrating Medallion Architecture (Bronze/Silver/Gold) with S
 - LocalStack (S3)
 - Python 3.11
 
+## Prerequisites
+- Docker & Docker Compose
+- [Git LFS](https://git-lfs.github.com/) (este repositório usa LFS para armazenar os JARs do Hadoop/AWS)
+
 ## Quick Start
 ```bash
+git lfs install
 git clone https://github.com/Lima-Developer/data_lake_medallion.git
 docker compose up -d
 # Trigger DAG at http://localhost:8080
