@@ -1,0 +1,16 @@
+order_id,customer_id,product_id,product_name,category,quantity,unit_price,order_date,status,payment_method
+ORD001,C101,P001,Wireless Mouse,Electronics,2,29.99,2024-01-15,completed,credit_card
+ORD002,C102,P002,USB-C Cable,Electronics,5,12.50,2024-01-15,completed,pix
+ORD003,C103,P003,Office Chair,Furniture,1,450.00,2024-01-16,completed,credit_card
+ORD004,C101,P004,Mechanical Keyboard,Electronics,1,189.90,2024-01-16,pending,boleto
+ORD005,C104,P005,Desk Lamp,Furniture,2,75.00,2024-01-17,completed,pix
+ORD006,C105,P001,Wireless Mouse,Electronics,1,29.99,2024-01-17,cancelled,credit_card
+ORD007,C102,P006,Monitor Stand,Furniture,1,120.00,2024-01-18,completed,credit_card
+ORD008,C106,P007,Webcam HD,Electronics,1,199.00,2024-01-18,completed,pix
+ORD009,C103,P008,Notebook Stand,Furniture,1,89.90,2024-01-19,completed,credit_card
+ORD010,C107,P002,USB-C Cable,Electronics,3,12.50,2024-01-19,completed,boleto
+ORD011,C108,P009,Bluetooth Speaker,Electronics,1,149.90,2024-01-20,completed,pix
+ORD012,C101,P003,Office Chair,Furniture,1,450.00,2024-01-20,pending,credit_card
+ORD013,C109,P010,Mouse Pad XL,Accessories,2,45.00,2024-01-21,completed,pix
+ORD014,C110,P004,Mechanical Keyboard,Electronics,1,189.90,2024-01-21,completed,credit_card
+ORD015,C104,P011,USB Hub 7-port,Electronics,1,79.90,2024-01-22,completed,boleto

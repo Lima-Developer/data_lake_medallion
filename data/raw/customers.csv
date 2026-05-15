@@ -1,0 +1,11 @@
+customer_id,name,email,city,state,created_at
+C101,Maria Silva,maria@email.com,Sao Paulo,SP,2023-06-15
+C102,Joao Santos,joao@email.com,Rio de Janeiro,RJ,2023-07-20
+C103,Ana Oliveira,ana@email.com,Belo Horizonte,MG,2023-08-10
+C104,Pedro Costa,pedro@email.com,Curitiba,PR,2023-09-05
+C105,Lucas Ferreira,lucas@email.com,Porto Alegre,RS,2023-10-12
+C106,Carla Souza,carla@email.com,Salvador,BA,2023-11-08
+C107,Rafael Lima,rafael@email.com,Fortaleza,CE,2023-12-01
+C108,Juliana Alves,juliana@email.com,Brasilia,DF,2024-01-03
+C109,Bruno Martins,bruno@email.com,Recife,PE,2024-01-10
+C110,Fernanda Rocha,fernanda@email.com,Manaus,AM,2024-01-15
