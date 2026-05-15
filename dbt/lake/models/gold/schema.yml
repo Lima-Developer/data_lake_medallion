@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: gold_revenue_by_category
+    description: "Revenue aggregated by product category"
+    columns:
+      - name: category
+        tests:
+          - not_null
+          - unique
+      - name: total_revenue
+        tests:
+          - not_null
+  
+  - name: gold_top_products
+    description: "Products ranked by revenue"
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+      - name: total_revenue
+        tests:
+          - not_null
+    
+  - name: gold_customer_summary
+    description: "Customer lifetime value summary"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
